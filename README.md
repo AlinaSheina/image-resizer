@@ -1,7 +1,8 @@
 # image-resizer
 API v1.0.0
 
-# Get api key
+## Get api key
+```javascript
 GET /key
 
 200 OK
@@ -13,8 +14,10 @@ GET /key
 	},
 	"message": null
 }
+```
 
-# Get list of images
+## Get list of images
+```javascript
 GET /images-list?key
 
 200 OK
@@ -32,8 +35,10 @@ GET /images-list?key
   },
   "message": null
 }
+```
 
-# Resize upload image
+## Resize upload image
+```javascript
 POST /image-resize
 
 params:
@@ -51,9 +56,10 @@ params:
     },
   "message": null
 }
+```
 
-# Errors
-
+## Errors
+```javascript
 400 Bad Request 
 
 {
@@ -79,3 +85,4 @@ params:
   "data": null,
   "message": 'Internal server error'
 }
+```
