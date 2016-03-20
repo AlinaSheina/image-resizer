@@ -1,6 +1,17 @@
 # image-resizer
 API v1.0.0
 
+## Install
+```bash
+git clone https://github.com/AlinaSheina/image-resizer
+cd image-resizer
+npm install
+```
+
+### ImageMagick
+You need installed on your system [imagemagick](http://www.imagemagick.org/script/binary-releases.php).
+
+
 ## Get api key
 ```javascript
 GET /key
